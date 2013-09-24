@@ -29,7 +29,7 @@ From Github::
 
 
 
-    pip install git+git://github.com/thomasalrin/beaver.git
+    pip install git+git://github.com/indykish/beaver.git
 
 From PyPI::
 
