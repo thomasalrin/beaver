@@ -5,6 +5,15 @@ Beaver
 
 python daemon that munches on logs and sends their contents to logstash
 
+Actual project(From where i forked)
+==============
+https://github.com/josegonzalez/beaver.git
+
+Changes
+=======
+	Actual beaver project push the logs to redis as `list` datatype 
+	Our project publish the logs to redis as `channel` datatype
+
 Requirements
 ============
 
@@ -18,7 +27,9 @@ Using PIP:
 
 From Github::
 
-    pip install git+git://github.com/josegonzalez/beaver.git#egg=beaver
+
+
+    pip install git+git://github.com/thomasalrin/beaver.git
 
 From PyPI::
 
