@@ -60,7 +60,7 @@ class RedisTransport(BaseTransport):
             del kwargs['timestamp']
 
         for line in lines:
-            self._pipeline.rpush(
+            self._pipeline.publish(
                 self._redis_namespace,
                 self.format(filename, line, timestamp, **kwargs)
             )
